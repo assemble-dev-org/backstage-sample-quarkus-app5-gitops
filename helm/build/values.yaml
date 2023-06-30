@@ -1,0 +1,16 @@
+app:
+  name: my-quarkus-app5
+  namespace: my-quarkus-app5-dev
+  cluster: .apps.cluster-pzz4f.pzz4f.sandbox1805.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/assemble-dev-org/backstage-sample-quarkus-app5
+  org: assemble-dev-org
+  name: backstage-sample-quarkus-app5
+
+image:
+  registry: Quay
+  host: quay.io
+  organization: jfroehli
+  name: my-quarkus-app5
